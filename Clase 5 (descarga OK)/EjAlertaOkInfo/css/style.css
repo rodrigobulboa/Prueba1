@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+.boton-alerta {
+  display: block;
+  color: white;
+  background-color: red;
+  margin-bottom: 20px;
+  font-size: 140px;
+  padding: 10px;
+  outline: none;
+  border-radius: 40px;
+  border-left-color: yellow;
+  border-left-width: 25px;
+  border-right-color: yellow;
+  border-right-width: 25px;
+}
+
+.boton-ok {
+  display: block;
+  color: white;
+  background-color: #035503;
+  margin-bottom: 20px;
+  font-size: 140px;
+  padding: 10px;
+  outline: none;
+  border-radius: 40px;
+  border-left-color: green;
+  border-left-width: 25px;
+  border-right-color: green;
+  border-right-width: 25px;
+}
+
+.boton-info {
+  display: block;
+  color: white;
+  background-color: #6363f1;
+  margin-bottom: 20px;
+  font-size: 140px;
+  padding: 10px;
+  outline: none;
+  border-radius: 40px;
+  border-left-color: blue;
+  border-left-width: 25px;
+  border-right-color: blue;
+  border-right-width: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */

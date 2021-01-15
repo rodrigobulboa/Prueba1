@@ -1,0 +1,41 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(34, 32, 32);
+    margin:0%;
+}
+.cont_header {
+    font-size: 45px;
+    color: rgb(242, 242, 247);
+    background-image: url(../img/Barber04.jpg);
+    background-size: 100%;
+    padding: 3px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly
+}
+.cont_div1 {
+    width: 20%;
+    text-align: center;
+}
+.cont_div2 {
+    width: 60%;
+    text-align: center;
+}
+.btn-group .button {
+    background-color: rgb(22, 22, 22);
+    border: 1px solid rgb(133, 55, 55);
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 49%;
+  }
+.btn-group .button:hover {
+    background-color: #4e3030;
+  }
+.contenedor {
+    width: 100%;
+}

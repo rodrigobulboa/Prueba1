@@ -1,0 +1,61 @@
+body {
+    font-family: monospace;
+    font-size: 70px;
+    background-color: black;
+    color:white;
+}
+.compito {
+    border: solid 5px purple;
+    position: absolute;
+    top: 150px;
+    left:150px;
+    text-align: right;
+}
+.pierdo {
+    border: solid 5px green;
+    position: absolute;
+    top: 100px;
+    left:5px;
+
+}
+@media (min-width: 700px) {
+    .compito {
+        text-align: center;
+    }
+    .pierdo {
+        top: 300px;    
+    }
+}
+@media (min-width: 900px) {
+    .compito {
+        text-align: left;
+    }
+    .pierdo {
+        top: 80px;
+        left: 250px;   
+    }
+}
+@media (min-width: 1000px) {
+    .pierdo {
+        top: 230px;
+        left: 400px;   
+    }
+}
+@media (min-width: 1100px) {
+    .pierdo {
+        top: 80px;
+        left: 520px;   
+    }
+}
+@media (min-width: 1200px) {
+    .pierdo {
+        top: 230px;
+        left: 650px;   
+    }
+}
+@media (min-width: 1300px) {
+    .pierdo {
+        top: 80px;
+        left: 850px;   
+    }
+}

@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    }
+@mixin barra($color-fondo, $color-borde) {
+    display: block;
+    color: white;
+    background-color: $color-fondo;
+    margin-bottom: 20px;
+    font-size: 140px;    
+    padding:10px;
+    outline: none;
+    // BORDES
+    border-radius: 40px;
+    border-left-color: $color-borde;
+    border-left-width: 25px;
+    border-right-color: $color-borde;
+    border-right-width: 25px;
+}  
+.boton-alerta {
+    @include barra(red, yellow);
+}
+
+.boton-ok {
+    @include barra(rgb(3, 85, 3), green)
+}
+.boton-info {
+    @include barra(rgb(99, 99, 241), blue)
+}

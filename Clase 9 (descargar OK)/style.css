@@ -1,0 +1,128 @@
+@font-face {
+    font-family: SystemaEncephale;
+    src:url('../font/SystemaEncephale.ttf');
+}
+body {
+    font-family: SystemaEncephale;
+    font-size: 120px;
+    font-variant: small-caps;
+    background-color: black;
+    color: white;
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    margin: 0;
+}
+p {
+    position: absolute;
+    z-index: 1;
+    top:240px;
+    left:520px;
+}
+/*POSICION 12 HORAS (Partida)*/
+.ojo {
+    position: absolute;
+    top:135px;
+    left:650px;
+ }
+/*POSICION 13 HORAS*/
+@media (min-width:1150px) {
+    .ojo {
+        top:165px;
+        left:745px;
+    }
+}
+/*POSICION 14 HORAS*/
+@media (min-width:1200px) {
+    .ojo {
+        top:250px;
+        left:830px;
+    }
+    p::before {
+        content: "praying";
+    }
+}
+/*POSICION 15 HORAS*/
+@media (min-width:1250px) {
+    .ojo {
+        top:370px;
+        left:880px;
+    }
+}
+/*POSICION 16 HORAS*/
+@media (min-width:1300px) {
+    .ojo {
+        top:480px;
+        left:860px;
+    }
+}
+/*POSICION 17 HORAS*/
+@media (min-width:1350px) {
+    .ojo {
+        top:560px;
+        left:780px;
+    }
+}
+/*POSICION 18 HORAS*/
+@media (min-width:1400px) {
+    .ojo {
+        top:620px;
+        left:650px;
+    }
+}
+/*POSICION 19 HORAS*/
+@media (min-width:1450px) {
+    .ojo {
+        top:560px;
+        left:520px;
+    }
+    p {
+        left:950px;
+    }
+    p::before {
+        content: "open";
+    }
+}
+/*POSICION 20 HORAS*/
+@media (min-width:1500px) {
+    .ojo {
+        top:480px;
+        left:440px;
+    }
+    p::before {
+        content: "my";
+    }
+}
+/*POSICION 21 HORAS*/
+@media (min-width:1550px) {
+    .ojo {
+        top:370px;
+        left:410px;
+    }
+    p::before {
+        content: "third";
+    }
+}
+/*POSICION 22 HORAS*/
+@media (min-width:1600px) {
+    .ojo {
+        top:260px;
+        left:460px;
+    }
+}
+/*POSICION 23 HORAS*/
+@media (min-width:1650px) {
+    .ojo {
+        top:175px;
+        left:530px;
+    }
+    p::before {
+        content: "eye";
+    }
+}
+/*POSICION 24 HORAS*/
+@media (min-width:1700px) {
+    .ojo {
+        top:135px;
+        left:650px;
+    }
+}
